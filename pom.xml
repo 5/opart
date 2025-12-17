@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.semchyshyn</groupId>
+	<artifactId>opart</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>Yuriy's tools for algorithmic generation of optical art pieces (still and animated)</description>
+	<url>https://5.github.io/opart</url>
+	<inceptionYear>2025</inceptionYear>
+
+	<developers>
+		<developer>
+			<name>Yuriy Semchyshyn</name>
+			<email>yuriy@semchyshyn.com</email>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>CC0 1.0 Universal</name>
+			<url>https://creativecommons.org/publicdomain/zero/1.0</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/5/opart</url>
+		<connection>scm:git:https://github.com/5/opart.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com:5/opart.git</developerConnection>
+	</scm>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>25</maven.compiler.source>
+		<maven.compiler.target>25</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>33.5.0-jre</version>
+		</dependency>
+		<dependency>
+			<groupId>args4j</groupId>
+			<artifactId>args4j</artifactId>
+			<version>2.37</version>
+		</dependency>
+		<dependency>
+			<groupId>me.tongfei</groupId>
+			<artifactId>progressbar</artifactId>
+			<version>0.10.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<directory>${project.basedir}/.mvn</directory>
+	</build>
+
+</project>

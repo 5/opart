@@ -1,0 +1,6 @@
+Rain
+Gem / +hyper
+Flower -> tattoos
+Wave
+Mandelbrot
+...
