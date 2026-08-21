@@ -1,0 +1,15 @@
+Galaxy
+Gem (unfold, random, "randomer"?)
+"Hypergem"? (constant class for platonic solids, shift through, rotation)
+Flower (radius_small=radius_large*Math.sin(Math.PI/number_of_circles)) -> tattoos x2 + x1
+Wave
+Mandelbrot
+QR
+...
+improved change functions
+legacy/still base class extraction
+palettes (interface -> enum with predefined + temporal gradients)
+anaglyphs
+javadocs for everything (give LLMs a shot)
+sound input function
+sound output generation (60 hz base frequency, fixed number of channels, 1/60th sec duration - not sure)
